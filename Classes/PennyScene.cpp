@@ -57,23 +57,13 @@ bool PennyGirlLayer::init()
     // create and initialize a label
     
     CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", TITLE_FONT_SIZE);
-    
+	
     // position the label on the center of the screen
     pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
                             origin.y + visibleSize.height - pLabel->getContentSize().height));
 
     // add the label as a child to this layer
-    this->addChild(pLabel, 1);
-
-    // add "PennyGirlLayer" splash screen"
-    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
-
-    // position the sprite on the center of the screen
-    pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-
-    // add the sprite as a child to this layer
-    this->addChild(pSprite, 0);
-    
+    this->addChild(pLabel, 1);    
     return true;
 }
 

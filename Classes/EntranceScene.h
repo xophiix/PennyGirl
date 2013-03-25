@@ -15,4 +15,9 @@ public:
     
     // implement the "static node()" method manually
     CREATE_FUNC(EntranceLayer);
+
+private:
+	void ditherSprite( float dt );
+
+	cocos2d::CCSprite* m_preface;
 };

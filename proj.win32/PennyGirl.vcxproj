@@ -131,6 +131,7 @@
     <ClInclude Include="..\Classes\AppMacros.h" />
     <ClInclude Include="..\Classes\EntranceScene.h" />
     <ClInclude Include="..\Classes\PennyScene.h" />
+    <ClInclude Include="..\Classes\RussionRoulette.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
